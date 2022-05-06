@@ -1,0 +1,129 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+*, *::before *::after{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color:#444753 ;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    border-radius: 5px;
+}
+
+main{
+    width: 34rem;
+    height:rem;
+    background-color: white;
+    /*padding: 3rem ;*/
+
+}
+
+.side-image{
+    width: 18rem;
+    height:29;
+}
+
+.member{
+    font-weight: 350;
+    margin-bottom: 1rem;
+    padding: 3rem 3rem 0;
+    font-size: 2.5rem;
+}
+
+
+
+
+
+.member-instruction{
+    margin: 0;
+    padding: 0 3rem;
+    font-size: 0.65rem;
+    color: #a29f99;
+
+}
+
+.media-info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-top: 3rem 0;
+    padding: 4rem 3rem;
+    
+}
+
+.media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #f5f4f8;
+    border-radius: 5px;
+    padding: 0.5rem 8rem 0.5rem 1rem;
+    color: #817f7e;
+    cursor: pointer;
+
+
+}
+
+.media:hover p{
+    color: black;
+    
+}
+.media:hover{
+    box-shadow: -1px 6px 8px 5px rgba(209,201,201,0.75);
+}
+
+.instruction{
+    font-size: 0.6rem;
+    font-weight: 800;
+}
+
+
+
+.image{
+    width: 1rem;
+    height: 1rem;
+}
+
+.bottom{
+    width: 34rem;
+    
+    border-top: 2px solid #f5f4f8;
+    display: flex;
+    column-gap: 7rem;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+.still{
+    font-size: 0.7rem;
+    color: #280a1f;
+}
+
+.mail{
+    color: #656b75;
+    font-size: 0.6rem;
+    padding: 0;
+    margin: 0;
+    font-weight:1000px;
+}
+
+.mail:hover{
+    cursor: pointer;
+    color: black;
+}
+
+
+
